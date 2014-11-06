@@ -91,7 +91,7 @@
         </div>
 
          <div id="impassioned" class="step" data-x="-600" data-y="900" data-scale="1">
-            <div class="bold left">We are</div>
+            <!-- <div class="bold left">We are</div> -->
             <div class="big bold"><span>impassioned</span></div>
             <img class="photo photo1" src="image/impassioned1.jpg"/>
         </div>
@@ -115,7 +115,7 @@
         </div>
 
         <div id="talktive" class="step" data-x="-1700" data-y="1500" data-scale="1">
-            <div class="bold left">We are</div>
+            <!-- <div class="bold left">We are</div> -->
             <div class="big bold"><span>talktive</span></div>
             <img src="image/talktive1.jpg">
             <img class="img1" src="image/talktive2.jpg">
@@ -135,7 +135,7 @@
         </div>
 
         <div id="rigor" class="step" data-x="1000" data-y="900" data-scale="1">
-            <div class="bold left">We are</div>
+            <!-- <div class="bold left">We are</div> -->
             <div class="big bold"><span>rigor</span></div>
             <img class="photo photo1" src="image/rigor1.jpg"/>
         </div>
@@ -160,7 +160,7 @@
         </div>
 
         <div id="creatively" class="step" data-x="350" data-y="1400" data-scale="1">
-            <div class="bold left">We are</div>
+            <!-- <div class="bold left">We are</div> -->
             <div class="big bold"><span>creatively</span></div>
             <img class="photo photo1" src="image/creatively1.jpg"/>
             <img class="photo photo2" src="image/creatively2.jpg"/>
@@ -184,7 +184,7 @@
         </div>
 
         <div id="vigor" class="step" data-x="1600" data-y="1470" data-scale="1">
-            <div class="bold left">We are</div>
+            <!-- <div class="bold left">We are</div> -->
             <div class="big bold"><span> vigorous</span></div>
             <img class="photo photo1" src="image/vigor1.jpg"/>
             <img class="photo photo2" src="image/vigor2.jpg"/>
@@ -198,7 +198,7 @@
             </div>
         </div>
 
-        <div id="vigorSubitem2" class="step" data-x="1550" data-y="2250" data-scale="1">
+        <div id="vigorSubitem2" class="step" data-x="1550" data-y="2250" data-scale=".5">
             <div class="big bold subTitle">cheerful sports</div>
             <div id="vigorImg">
                 <img  class="photo photo5" src="image/vigor5.jpg">
@@ -206,7 +206,7 @@
             </div>
         </div>
 
-        <div id="vigorSubitem3" class="step" data-x="1750" data-y="2250" data-scale="1">
+        <div id="vigorSubitem3" class="step" data-x="1750" data-y="2250" data-scale=".5">
             <div id="vigorImg">
                 <img  class="photo photo7" src="image/vigor7.jpg">
                 <img  class="photo photo8" src="image/vigor8.jpg">
@@ -227,7 +227,7 @@
         </div>
 
         <div id="care" class="step" data-x="1600" data-y="1050" data-scale="1">
-            <div class="bold left">We are</div>
+            <!-- <div class="bold left">We are</div> -->
             <div class="big bold"><span> caring</span></div>
             <img class="photo photo7" src="image/care7.jpg"/>
             <img class="photo photo8" src="image/care8.jpg"/>
@@ -251,7 +251,7 @@
             </div>
         </div>
 
-        <div id="whatWeAre" class="step" data-x="150" data-y="1000" data-scale="3.8">
+        <div id="whatWeAre" class="step" data-x="150" data-y="1000" data-scale="3.6">
             <div class=" bold">What<span> We are</span>?</div>
         </div>
 
@@ -263,7 +263,10 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/impress.js"></script>
     <script type="text/javascript">
-        $('#users img').addClass('animated bounceInRight');
+        $(window).ready(function() {
+            $('#users img').addClass('animated fadeIn');
+            
+        });
     </script>
 
 </body>

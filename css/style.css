@@ -1,5 +1,5 @@
 html { overflow: hidden; }
-body { font-family: 'Open Sans', sans-serif; line-height: .8; font-size: 45px; }
+body { font-family: 'PT Serif', georgia, serif; line-height: .8; font-size: 45px; }
 
 .background {
     position: fixed;
@@ -92,7 +92,7 @@ blockquote .author {
 }
 
 #users {
-
+    background: #FFF transparent;
 }
 
 #users img{
