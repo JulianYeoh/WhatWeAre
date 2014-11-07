@@ -78,12 +78,15 @@ blockquote .author {
     margin-left: 10px !important;
 }
 #title-text1 {
-    font-size: 100px;
+    font-size: 80px;
     margin: 50px 0 40px 0 !important;
 }
 #title-text2 {
     font-size: 170px;
     padding-left: 50px;
+}
+#title-text2 span {
+    color: #FF362B;
 }
 #title-text3 {
     font-size: 50px;
@@ -277,7 +280,7 @@ blockquote .author {
 
 #impassioned span{
     font-size: 90px;
-    color: #FF362B;
+    color: #205081;
 }
 
 .photo{
@@ -331,7 +334,7 @@ blockquote .author {
 
 #talktive span {
     font-size: 90px;
-    color: #FF362B;
+    color: #205081;
 }
 
 #talktive img {
@@ -355,7 +358,7 @@ blockquote .author {
 }
 
 #rigor {
-    margin-top: -150px;
+    margin-top: -170px;
 }
 
 #rigor .left {
@@ -364,7 +367,7 @@ blockquote .author {
 
 #rigor span {
     font-size: 90px;
-    color: #FF362B;
+    color: #205081;
 }
 
 #rigor .photo1 {
@@ -375,8 +378,8 @@ blockquote .author {
     padding: 5px;
     border-radius: 15px;
     box-shadow:3px 3px 5px #aaaaaa;
-    left: 40px;
-    top: 170px;
+    left: 150px;
+    top: 120px;
 }
 
 #rigor-img1 {
@@ -408,7 +411,7 @@ blockquote .author {
 
 #rigor-img1 .rigor {
     margin: 120px 0 0 0;
-    color: #FF362B;
+    color: #205081;
 }
 
 #rigor-img1 span {
@@ -425,7 +428,7 @@ blockquote .author {
 
 #creatively span {
     font-size: 90px;
-    color: #FF362B;
+    color: #205081;
 }
 
 #creatively .photo1 {
@@ -452,8 +455,17 @@ blockquote .author {
     box-shadow:3px 3px 5px #aaaaaa;
 }
 
+#creatively-img1 .photo3 {
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #999;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow:3px 3px 5px #aaaaaa;
+}
+
 #vigor {
-    margin-top: -50px;
+    margin-top: -30px;
 }
 
 #vigor .left {
@@ -462,14 +474,14 @@ blockquote .author {
 
 #vigor span {
     font-size: 90px;
-    color: #FF362B;
+    color: #205081;
 }
 
 #vigor .photo1 {
-    height: 250px;
+    height: 360px;
     background-color: #fff;
     border: 1px solid #999;
-    margin-top: 30px;
+    margin-top: 50px;
     padding: 5px;
     border-radius: 15px;
     box-shadow:3px 3px 5px #aaaaaa;
@@ -489,12 +501,12 @@ blockquote .author {
 }
 
 #vigorSubitem1 .subTitle {
-    color: #8CC8BD;
+    color: #36628E;
     margin-top: -150px;
 }
 
 #vigorSubitem2 .subTitle {
-    color: #8CC8BD;
+    color: #36628E;
 }
 
 #vigorSubitem1 .photo3 {
@@ -543,7 +555,7 @@ blockquote .author {
 
 #care span {
     font-size: 90px;
-    color: #FF362B;
+    color: #205081;
 }
 
 #careSubitem1,
@@ -552,13 +564,13 @@ blockquote .author {
 }
 
 #careSubitem1 .subTitle {
-    color: #8CC8BD;
+    color: #36628E;
     margin-top: -150px;
 
 }
 
 #careSubitem2 .subTitle {
-    color: #8CC8BD;
+    color: #36628E;
     margin-top: -150px;
 }
 
@@ -640,7 +652,7 @@ blockquote .author {
 
 #whatWeAre span{
     font-size: 160px;
-    color: #FF362B;
+    color: #205081;
 }
 
 #WeAre span {
