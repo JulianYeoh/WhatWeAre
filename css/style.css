@@ -336,13 +336,13 @@ blockquote .author {
 }
 
 #creatively .photo2 {
-    height: 240px;
+    height: 300px;
     position: absolute;
     background-color: #fff;
     border: 1px solid #999;
     padding: 5px;
-    left: 500px;
-    top: 210px;
+    left: 530px;
+    top: 190px;
     border-radius: 15px;
     box-shadow:3px 3px 5px #aaaaaa;
 }
@@ -403,7 +403,7 @@ blockquote .author {
 
 #vigorSubitem1 .photo3 {
     position: absolute;
-    left: 1px;
+    left: 30px;
     top: -50px;
     height: 300px;
     background-color: #fff;
@@ -551,6 +551,6 @@ blockquote .author {
 }
 
 #WeAre {
-    font-size: 110px;
+    font-size: 250px;
     color: #396099;
 }
